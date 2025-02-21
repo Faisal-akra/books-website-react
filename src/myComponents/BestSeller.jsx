@@ -8,7 +8,7 @@ const BestSeller = () => {
 
 
 
-    <div className="hidden     md:flex justify-evenly mt-16">
+    <div className="hidden     md:flex justify-evenly ">
 
 
       <div className="flex flex-col border border-black w-fit justify-center items-center bg-gray-300 text-white h-fit">
