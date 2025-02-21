@@ -2,10 +2,10 @@ import address from "../assests/address/address.jpeg"
 
 const Address = () => {
   return(
-    <div className="flex justify-evenly items-center">
+    <div className="  flex justify-evenly items-center">
 
 
-<div className="flex flex-col text-lg font-bold">
+<div className="    flex flex-col md:text-lg md:font-bold">
  <a href="#main">Main-Menu</a>
  <a href="#about">About</a>
  <a href="#best">Best-Sellers</a>
@@ -14,7 +14,7 @@ const Address = () => {
 
 </div>
 
-<div className="text-lg font-bold">
+<div className="  md:text-lg md:font-bold">
   <h1>About Us</h1>
   <h2>University Rd.near University town,
   </h2>
@@ -25,7 +25,7 @@ const Address = () => {
 
 
 <div className="">
-  <img src={address} alt="" className="w-[500px]" />
+  <img src={address} alt="" className="w-[100px]   md:w-[500px]" />
 </div>
 
 
