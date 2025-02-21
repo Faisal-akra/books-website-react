@@ -10,11 +10,11 @@ const App = () => {
     <div>
       <Navbar />
       <About />
-      <h1 className="text-center mt-10 mb-10 text-lg font-bold ">
+      <h1 id="best" className="text-center mt-10 mb-10 text-lg font-bold ">
         Best-Sellers
       </h1>
       <BestSeller />
-      <h1 className="text-center mt-10 mb-10 text-lg font-bold ">Books</h1>
+      <h1 id="books" className="text-center mt-10 mb-10 text-lg font-bold ">Books</h1>
       <Books />
 
       <Address/>
