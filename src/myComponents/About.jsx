@@ -24,7 +24,7 @@ const About = () => {
 
       
 
-      <div className="  sm:w-[300px]   md:w-[100%] md:flex md:justify-center md:items-center flex-col text-lg  font-sans ">
+      <div className="  sm:w-[250px] items-center justify-center text-center   md:w-[100%] md:flex md:justify-center md:items-center flex-col text-lg  font-sans ">
         <h1 className=" md:font-bold md:flex md:justify-center">Faisal-Akram Books-Store</h1>
         <p>Were books and people meet</p>
         <p>Bringing books and accessories doorstep</p>
