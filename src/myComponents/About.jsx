@@ -3,9 +3,11 @@ import book from "../assests/about/book.jpeg";
 const About = () => {
   return (
     <div className="mt-10">
-      <div className="flex justify-evenly p-5">
-        <div className="flex flex-col justify-center   ">
-          <h1 className="font-sans text-2xl font-bold">Find the books you are  reading <br />for the read</h1>
+      <div className="flex  md:flex md:justify-evenly md:p-5">
+
+
+        <div className="   flex flex-col justify-center   ">
+          <h1 className="        md:font-sans md:text-2xl md:font-bold">Find the books you are  reading <br />for the read</h1>
 
           <input className="w-fit rounded-lg border-2 border-black mt-2"
             type="text"
@@ -15,12 +17,15 @@ const About = () => {
         </div>
 
         <div className="flex">
-          <img src={book} alt="" className="w-[300px] " />
+          <img src={book} alt="" className="  w-[100px]    md:w-[300px] " />
         </div>
       </div>
 
-      <div className="      md:flex md:justify-center items-center md:flex-col md:text-lg  font-sans ">
-        <h1 className=" md:font-bold">Faisal-Akram Books-Store</h1>
+
+      
+
+      <div className="  sm:w-[300px]   md:w-[100%] md:flex md:justify-center md:items-center flex-col text-lg  font-sans ">
+        <h1 className=" md:font-bold md:flex md:justify-center">Faisal-Akram Books-Store</h1>
         <p>Were books and people meet</p>
         <p>Bringing books and accessories doorstep</p>
 

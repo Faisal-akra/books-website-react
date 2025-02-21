@@ -1,4 +1,5 @@
 import About from "./myComponents/About";
+import BestSeller from "./myComponents/BestSeller";
 import Navbar from "./myComponents/Navbar";
 
 
@@ -7,6 +8,7 @@ const App = () => {
       <div>
    <Navbar/>
    <About/>
+   <BestSeller/>
    </div>
    )
 }
