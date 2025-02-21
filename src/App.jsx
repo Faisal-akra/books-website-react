@@ -2,6 +2,7 @@ import About from "./myComponents/About";
 import Address from "./myComponents/Address";
 import BestSeller from "./myComponents/BestSeller";
 import Books from "./myComponents/Books";
+import Footer from "./myComponents/Footer";
 import Navbar from "./myComponents/Navbar";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Books />
 
       <Address/>
+      <Footer/>
     </div>
   );
 };
