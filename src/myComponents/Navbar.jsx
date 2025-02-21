@@ -7,7 +7,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
 
-      <div className=" flex justify-evenly">
+      <div className=" flex flex-col sm:border    md:flex md:flex-row md:justify-center md:gap-10 lg:justify-evenly">
         <div>
           <a href="">Home</a>
         </div>

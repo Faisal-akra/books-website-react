@@ -14,13 +14,13 @@ const About = () => {
           />
         </div>
 
-        <div className="flex  ">
+        <div className="flex">
           <img src={book} alt="" className="w-[300px] " />
         </div>
       </div>
 
-      <div className="flex justify-center items-center flex-col text-lg  font-sans ">
-        <h1 className="font-bold">Faisal-Akram Books-Store</h1>
+      <div className="      md:flex md:justify-center items-center md:flex-col md:text-lg  font-sans ">
+        <h1 className=" md:font-bold">Faisal-Akram Books-Store</h1>
         <p>Were books and people meet</p>
         <p>Bringing books and accessories doorstep</p>
 
